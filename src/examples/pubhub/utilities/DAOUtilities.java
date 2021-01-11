@@ -13,8 +13,8 @@ import examples.pubhub.dao.BookDAOImpl;
 public class DAOUtilities {
 
 	private static final String CONNECTION_USERNAME = "postgres";
-	private static final String CONNECTION_PASSWORD = "password";
-	private static final String URL = "jdbc:postgresql://localhost:5432/PubHub";
+	private static final String CONNECTION_PASSWORD = "P0stgr3s";
+	private static final String URL = "jdbc:postgresql://localhost:5433/PubHub";
 	private static Connection connection;
 	
 	public static synchronized Connection getConnection() throws SQLException {
